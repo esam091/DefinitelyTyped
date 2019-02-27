@@ -38,6 +38,8 @@ export type MeasureInWindowOnSuccessCallback = (x: number, y: number, width: num
 
 export type MeasureLayoutOnSuccessCallback = (left: number, top: number, width: number, height: number) => void;
 
+type foo = {}
+
 /**
  * EventSubscription represents a subscription to a particular event. It can
  * remove its own subscription.
